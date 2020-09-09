@@ -10,8 +10,8 @@ public class TaikhoanTietkiem {
     @Id
     private String mataikhoantietkiem;
     private String tenloaitaikhoan;
-    private float laisuathangthang;
-    private float sodutoithieu;
+    private Float laisuathangthang;
+    private Float sodutoithieu;
 
     public String getMataikhoantietkiem() {
         return mataikhoantietkiem;
@@ -29,19 +29,19 @@ public class TaikhoanTietkiem {
         this.tenloaitaikhoan = tenloaitaikhoan;
     }
 
-    public float getSodutoithieu() {
+    public Float getSodutoithieu() {
         return sodutoithieu;
     }
 
-    public void setSodutoithieu(float sodutoithieu) {
+    public void setSodutoithieu(Float sodutoithieu) {
         this.sodutoithieu = sodutoithieu;
     }
 
-    public float getLaisuathangthang() {
+    public Float getLaisuathangthang() {
         return laisuathangthang;
     }
 
-    public void setLaisuathangthang(float laisuathangthang) {
+    public void setLaisuathangthang(Float laisuathangthang) {
         this.laisuathangthang = laisuathangthang;
     }
 }

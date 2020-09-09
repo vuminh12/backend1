@@ -17,10 +17,10 @@ public class TaikhoanTietkiemController {
     @Autowired
     private TaikhoanTietkiemService taikhoanTietkiemService;
 
-//    @GetMapping
-//    public Iterable<TaikhoanTietkiem> getAllTaikhoanTietkiem() {
-//        return taikhoanTietkiemService.findAll();
-//    }
+    @GetMapping
+    public Iterable<TaikhoanTietkiem> getAllTaikhoanTietkiem() {
+        return taikhoanTietkiemService.findAll();
+    }
 
 //    @GetMapping
 //    public List<TaikhoanTietkiem> getFromAccount(@Param("mataikhoantietkiem") String mataikhoantietkiem

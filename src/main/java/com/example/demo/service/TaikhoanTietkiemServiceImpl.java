@@ -13,10 +13,10 @@ public class TaikhoanTietkiemServiceImpl implements TaikhoanTietkiemService{
     @Autowired
     private TaikhoanTietkiemRepository taikhoanTietkiemRepository;
 
-//    @Override
-//    public Iterable<TaikhoanTietkiem> findAll() {
-//        return taikhoanTietkiemRepository.findAll();
-//    }
+    @Override
+    public Iterable<TaikhoanTietkiem> findAll() {
+        return taikhoanTietkiemRepository.findAll();
+    }
 
     @Override
     public TaikhoanTietkiem save(TaikhoanTietkiem taikhoanTietkiem) {

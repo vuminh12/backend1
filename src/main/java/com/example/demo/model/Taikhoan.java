@@ -15,7 +15,7 @@ public class Taikhoan {
     private String tenloaitaikhoan;
     private String makhachhang;
     private String manhanvientaotaikhoan;
-    private float sodu;
+    private Float sodu;
 
 
     public String getMataikhoan() {
@@ -58,7 +58,7 @@ public class Taikhoan {
         this.manhanvientaotaikhoan = manhanvientaotaikhoan;
     }
 
-    public float getSodu() {
+    public Float getSodu() {
         return sodu;
     }
 

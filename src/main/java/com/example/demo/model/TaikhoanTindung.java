@@ -8,9 +8,8 @@ public class TaikhoanTindung {
     @Id
     private String mataikhoantindung;
     private String tenloaitaikhoan;
-    private float soduhientai;
-    private float hanmuctoida;
-    private  float sonohientai;
+    private Float hanmuctoida;
+    private  Float sonohientai;
 
     public String getMataikhoantindung() {
         return mataikhoantindung;
@@ -28,31 +27,18 @@ public class TaikhoanTindung {
         this.tenloaitaikhoan = tenloaitaikhoan;
     }
 
-    public Float getSoduhientai() {
-        return soduhientai;
-    }
-
-    public void setSoduhientai(Float soduhientai) {
-        this.soduhientai = soduhientai;
-    }
-
-    public float getHanmuctoida() {
+    public Float getHanmuctoida() {
         return hanmuctoida;
     }
 
-    public void setHanmuctoida(float hanmuctoida) {
+    public void setHanmuctoida(Float hanmuctoida) {
         this.hanmuctoida = hanmuctoida;
     }
 
-    public void setSoduhientai(float soduhientai) {
-        this.soduhientai = soduhientai;
-    }
-
-    public float getSonohientai() {
+    public Float getSonohientai() {
         return sonohientai;
     }
-
-    public void setSonohientai(float sonohientai) {
+    public void setSonohientai(Float sonohientai) {
         this.sonohientai = sonohientai;
     }
 }

@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @Service
 public interface TaikhoanTietkiemService {
-//    Iterable<TaikhoanTietkiem> findAll();
+   Iterable<TaikhoanTietkiem> findAll();
     TaikhoanTietkiem save(TaikhoanTietkiem taikhoanTietkiem);
     Optional<TaikhoanTietkiem> findById(String id);
     TaikhoanTietkiem updateById(TaikhoanTietkiem taikhoanTietkiem);
