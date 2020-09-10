@@ -12,6 +12,17 @@ public class TaikhoanTietkiem {
     private String tenloaitaikhoan;
     private Float laisuathangthang;
     private Float sodutoithieu;
+    private Float sotienguilandau;
+
+    public Float getSotienguilandau() {
+        return sotienguilandau;
+    }
+
+    public void setSotienguilandau(Float sotienguilandau) {
+        this.sotienguilandau = sotienguilandau;
+    }
+
+
 
     public String getMataikhoantietkiem() {
         return mataikhoantietkiem;
